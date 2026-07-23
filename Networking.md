@@ -59,10 +59,12 @@ Handles error detection and flow control.
 Data Unit: Segment
 
 Protocols
-
 TCP
 UDP
-3. Network Layer
+
+---
+
+### 3. Network Layer
 
 Purpose:
 
@@ -71,16 +73,15 @@ Determines the best path for data using routing.
 Converts segments into packets.
 
 Data Unit: Packet
-
 Protocols
-
 IP
 ICMP
-
 Device
-
 Router
-2. Data Link Layer
+
+----
+
+## 2. Data Link Layer
 
 Purpose:
 
@@ -89,11 +90,12 @@ Detects errors.
 Converts packets into frames.
 
 Data Unit: Frame
-
 Device
-
 Switch
-1. Physical Layer
+
+---
+
+## 1. Physical Layer
 
 Purpose:
 
@@ -101,9 +103,7 @@ Transmits raw binary data (0s and 1s) over the physical medium.
 Defines cables, connectors, voltage, and transmission methods.
 
 Data Unit: Bits
-
 Devices
-
 Hub
 Repeater
 Cables
